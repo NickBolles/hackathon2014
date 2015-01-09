@@ -1,0 +1,4 @@
+server: 192.254.185.170
+database: stassen_break
+usrname: stassen_break
+password: by&*2ul&LRrC

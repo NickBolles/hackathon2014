@@ -1,0 +1,16 @@
+var c = {
+    1:{"name": "verizon", "address": "vtext.com"},
+    2:{"name": "uscellular", "address": "email.uscc.net"},
+    3:{"name": "att", "address": "mobile.att.net"},
+    4:{"name": "tmobile", "address": "tmomail.net"},
+    5:{"name": "sprint", "address": "messaging.sprintpcs.com"},
+    6:{"name": "boostmobile", "address": "myboostmobile.com"},
+    7:{"name": "virginmobile", "address": "vmobl.com"}
+};
+var arr = [{phone:'123', carrier:2},{phone:'345', carrier:7}];
+
+
+
+for(var i=0; i<arr.length; i++){
+    arr[i].phone+'@'+c[arr[i].carrier]['address'];
+}
